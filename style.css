@@ -1,0 +1,144 @@
+body {
+  height: 140vh;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  flex: 1.7;
+  background-color: #f9fafb;
+}
+.image {
+  flex: auto;
+  background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 40%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "source_sans_proregular";
+}
+.par1,
+.par2 {
+  font-weight: 800;
+  margin-left: 32px;
+  width: 70%;
+  font-size: 22px;
+}
+.par1 {
+  margin-top: 140px;
+  text-align: start;
+  line-height: 1.2;
+}
+.par2 {
+  margin-top: 22px;
+}
+.rightside,
+.leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 32px;
+}
+.personalinfo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 64px;
+}
+label {
+  display: block;
+  font-family: "source_sans_prolight";
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+input {
+  border-radius: 5px;
+
+  width: 20vw;
+  height: 4vh;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+.whitepart {
+  background-color: white;
+  height: 40vh;
+  box-shadow: 5px 5px #e5e7eb;
+}
+
+.whitepart h2 {
+  color: #2d3744;
+  margin-bottom: 16px;
+  margin-left: 32px;
+}
+.info {
+  margin-bottom: 64px;
+}
+
+input:focus {
+  border: 2px solid #7794e4;
+  outline: none;
+  box-shadow: 1px 1px 1px #e2e2e2;
+}
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
+.actions {
+  margin-left: 32px;
+}
+button {
+  height: 8vh;
+  width: 15vw;
+  border-radius: 6px;
+  color: white;
+  background-color: #596d48;
+  border-color: transparent;
+  font-size: 18px;
+}
+.actions div {
+  margin-top: 32px;
+}
+.actions p {
+  margin-top: 32px;
+  font-family: "source_sans_proregular";
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 600;
+}
+a:visited {
+  color: #596d48;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 200px;
+  justify-content: center;
+}
+
+div.thelogo img {
+  height: 100%;
+  opacity: 1;
+}
+p.sometext {
+  font-size: 128px;
+  font-family: "norsebold";
+  opacity: 1;
+  color: white;
+  text-align: center;
+}
